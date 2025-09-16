@@ -1,0 +1,8 @@
+CREATE TABLE apostas (
+  id BIGSERIAL PRIMARY KEY,
+  usuario_id BIGINT NOT NULL,
+  valor DECIMAL(12,2) NOT NULL,
+  tipo VARCHAR(20) NOT NULL,
+  canal VARCHAR(30) NOT NULL,
+  data_hora TIMESTAMP NOT NULL
+);

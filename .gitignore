@@ -1,0 +1,15 @@
+# Build
+**/target/
+**/build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
